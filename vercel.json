@@ -2,34 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "invoiceGenerator using My Sql/index.js",
+      "src": "index.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "invoiceGenerator using My Sql/dist/index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "invoiceGenerator using My Sql/dist/assets/**",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "invoiceGenerator using My Sql/index.js"
-    },
-    {
-      "src": "/assets/(.*)",
-      "dest": "invoiceGenerator using My Sql/dist/assets/$1"
-    },
-    {
-      "src": "/passwordreset/:token.*",
-      "dest": "invoiceGenerator using My Sql/dist/index.html"
+      "dest": "/index.js"
     },
     {
       "src": "/(.*)",
-      "dest": "invoiceGenerator using My Sql/dist/index.html"
+      "dest": "/dist/index.html"
     }
   ]
 }
