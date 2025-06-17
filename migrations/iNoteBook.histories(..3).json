@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "680727c94f4828338893add5"
+  },
+  "user": {
+    "$oid": "67fe008853f10c0d94363b40"
+  },
+  "action": "Created new note",
+  "title": "My First Note",
+  "description": "Added a new note to iNotebook",
+  "date": {
+    "$date": "2025-04-22T05:23:21.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680726e540c3db19f35c876f"
+  },
+  "user": {
+    "$oid": "67fe008853f10c0d94363b40"
+  },
+  "action": "Created new note",
+  "title": "My First Note",
+  "description": "Added a new note to iNotebook",
+  "date": {
+    "$date": "2025-04-22T05:19:33.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68071d3940c3db19f35c875f"
+  },
+  "user": {
+    "$oid": "67fe008853f10c0d94363b40"
+  },
+  "action": "Created new note",
+  "title": "My First Note",
+  "description": "Added a new note to iNotebook",
+  "date": {
+    "$date": "2025-04-22T04:38:17.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680619fadc4df55951a619f1"
+  },
+  "user": {
+    "$oid": "67fe008853f10c0d94363b40"
+  },
+  "action": "Created new note",
+  "title": "My First Note",
+  "description": "Added a new note to iNotebook",
+  "date": {
+    "$date": "2025-04-21T10:12:10.403Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68060f7018ee4800fae2a697"
+  },
+  "user": {
+    "$oid": "67fe008853f10c0d94363b40"
+  },
+  "action": "Created new note",
+  "title": "My First Note",
+  "description": "Added a new note to iNotebook",
+  "date": {
+    "$date": "2025-04-21T09:27:12.095Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6807243940c3db19f35c876b"
+  },
+  "user": {
+    "$oid": "67fe008853f10c0d94363b40"
+  },
+  "action": "Created new note",
+  "title": "My First Note",
+  "description": "Added a new note to iNotebook",
+  "date": {
+    "$date": "2025-04-22T05:08:09.675Z"
+  },
+  "__v": 0
+}]
