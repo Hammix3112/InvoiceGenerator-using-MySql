@@ -73,8 +73,8 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ["https://invoicely.tecnosphere.org",
-  "http://invoicely.tecnosphere.org" ],// Add this line
+  origin: ["https://invoice-generator-using-my-sql.vercel.app",
+  "http://invoice-generator-using-my-sql.vercel.app" ],// Add this line
   credentials: true
 }));
 app.use(express.json());

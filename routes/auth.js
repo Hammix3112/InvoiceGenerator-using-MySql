@@ -132,7 +132,7 @@ router.post("/passwordforgot", async (req, res) => {
 
     const resetToken = jwt.sign({ user: { id: user.id } }, JWT_SECRET, { expiresIn: "1h" });
 
-    const resetLink = `https://invoicely.tecnosphere.org/reset-password/${resetToken}`;
+    const resetLink = `https://invoice-generator-using-my-sql.vercel.app/reset-password/${resetToken}`;
 
 
     await sendResetEmail(email, resetLink);
